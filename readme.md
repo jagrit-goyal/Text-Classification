@@ -38,7 +38,7 @@ The models are ranked based on the following metrics:
 4. **TOPSIS Score Calculation**:
    - The Euclidean distance from ideal best and worst is calculated.
    - The TOPSIS score is computed using the formula:
-     \[ S_i = \frac{D^-}{D^+ + D^-} \]
+     `S_i = D^- / (D^+ + D^-)`
    - Models are ranked based on their scores.
 
 ## Results
